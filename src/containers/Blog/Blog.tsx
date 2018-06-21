@@ -87,6 +87,7 @@ interface Post {
     medium_link: string;
     thumbnail: string;
     slug: string;
+    readtime: number;
   };
   content: string;
 }
